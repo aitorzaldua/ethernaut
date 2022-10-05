@@ -1,14 +1,7 @@
-# Sample Hardhat Project
+# ETHERNAUT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This repository is created to host the scripts needed to hack the security challenges.
 
-Try running some of the following tasks:
+Includes:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-# ethernaut
+Ethenaut 3: Flip the coin
