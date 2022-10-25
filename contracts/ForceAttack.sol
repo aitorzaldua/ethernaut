@@ -6,7 +6,7 @@ import "./Force.sol";
 import "hardhat/console.sol";
 
 contract ForceAttack {
-  
+
     Force public victimContract;
 
     constructor (address _victimContractAddr) {
