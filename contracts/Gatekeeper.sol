@@ -1,15 +1,20 @@
 // SPDX-License-Identifier: MIT
+// @audit-issue - Don´t use ^ in mainnet.
 pragma solidity ^0.8.0;
 
 contract GatekeeperOne {
 
   address public entrant;
 
+  // @audit-issue - Sending from a contranct, not an EOA will (...)
+  // @audit-issue - (...) overcome this require.
   modifier gateOne() {
     require(msg.sender != tx.origin);
     _;
   }
 
+  // @audit-info - Looks like, with a loop, we can consume gas (...)
+  // @audit-info - (...) until match the require.
   modifier gateTwo() {
     require(gasleft() % 8191 == 0);
     _;

