@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// @audit-issue - Use exact version (do not use ^)
 pragma solidity ^0.8.0;
 
 
@@ -26,7 +27,7 @@ contract CoinFlip {
     lastHash = blockValue;
     // @audit - blockValue / Factor = 0 or 1
     // @audit - If blockValue/FACTO = 1 -> side = true else false
-    // @audit - If _guess = side -> consecitiveWinss++
+    // @audit - If _guess = side -> consecutiveWinss++
     uint256 coinFlip = (blockValue/FACTOR);
     bool side = coinFlip == 1 ? true : false;
 
