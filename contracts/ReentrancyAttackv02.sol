@@ -1,4 +1,5 @@
-pragma solidity ^0.8;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
 
 interface IReentrancy {
     function donate(address) external payable;
