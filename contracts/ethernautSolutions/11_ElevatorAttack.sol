@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./Elevator.sol";
+import "../ethernautContracts/11_Elevator.sol";
 
-import "hardhat/console.sol";
 
 contract ElevatorAttack {
 

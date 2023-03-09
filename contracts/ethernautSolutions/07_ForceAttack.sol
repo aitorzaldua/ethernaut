@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "./Force.sol";
+import "../ethernautContracts/07_Force.sol";
 
 import "hardhat/console.sol";
 

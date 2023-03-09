@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "./10_Reentrancy.sol";
+import "../ethernautContracts/10_Rentrancy.sol";
 
 import "hardhat/console.sol";
 

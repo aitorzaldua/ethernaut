@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "./Privacy.sol";
+import "../ethernautContracts/12_Privacy.sol";
 
 import "hardhat/console.sol";
 

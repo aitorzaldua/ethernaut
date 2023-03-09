@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "./CoinFlip.sol";
+import "../ethernautContracts/03_CoinFlip.sol";
 
 contract CoinFlipAttack {
 

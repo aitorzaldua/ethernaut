@@ -3,6 +3,7 @@ pragma solidity ^0.8.4;
 
 import "hardhat/console.sol";
 
+
 interface IGatekeeperOne {
     function enter(bytes8 _gateKey) external returns (bool);
 }
