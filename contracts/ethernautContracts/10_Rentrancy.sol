@@ -27,3 +27,4 @@ contract Reentrance {
       balances[msg.sender] -= _amount;
     }
   }
+  }

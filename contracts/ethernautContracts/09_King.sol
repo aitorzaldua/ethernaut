@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // @audit-issue - version 0.6 too old. Recommended 0.8.0 or higher
 // @audit-issue - Don´t use ^ in mainnet.
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.4;
 
 contract King {
 
